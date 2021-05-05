@@ -54,10 +54,46 @@
 </form>
 
 <h4>5. Naast input element heb je ook een select element. Hiermee kan je een dropdown list maken. Maak een drop down list.</h4>
+<form><label>Wat is je favoriete console?</label>
+    <select>
+        <option>PS5</option>
+        <option>Xbox One</option>
+        <option>Nintendo Switch</option>
+    </select></form>  
+
+<h4>6. Benoem voor dropdown list, radio buttons en checkboxes een situatie waar je deze in kan gebruiken en leg dat uit.</h4>
+<p> Als ik de interface van een dropdown list zie denk ik gelijk aan een kleding winkel, je doet je shirt in een winkelmand en via de dropdown list klik je de goede maat aan.<br/>
+    Radio buttons zie je vaak bij vraagstellingen voor bij komen en dan met name als je een antwoord of optie aan moet klikken.<br/>
+    Checkboxes zie je vaak om bijvoorbeeld de Terms of Agreement goed te keuren (oftewel als je ergens akkoord voor geeft).
+</p>
+
+<h4>7. Maak een reserveringsformulier om een sport te reserveren.</h4>
+<form>
+    <fieldset>
+        <legend>Reserverings formulier voor sportclub het zweetbandje</legend><br/>
+        <label>Voornaam :</label><input type="text" placeholder="Voornaam"><br/><br/>
+        <label>Achternaam :</label><input type="text" placeholder="Achternaam"><br/><br/>
+        <label>Bent u al lid?</label><br/><br/>
+        <label> Ja</label><input type="radio"><label> Nee</label><input type="radio"><br/><br/>
+        <label> E-mail adres: </label><input type="email" value="vul hier uw email adres in"><br/><br/>
+        <label> Welke sport wilt u reserveren?</label>
+        <select>
+            <option> Tafeltennis </option>
+            <option> Badminton </option>
+            <option> Squash </option>
+        </select><br/><br/>
+        <label>Datum en tijdstip voor de reservering :</label><input type="datetime-local"><br/><br/>
+        <label>Vink aan als u akkoord gaat met onze reserveringsvoorwaarden.</label> <input type="checkbox"><br/><br/>
+        <input type="submit" value="Reservering bevestigen"><br/.<br/>
+
+
+    </fieldset>
+</form>
 
 
 <style>
     body {
+        margin-bottom: 500px;
         background-color: lightblue;
     }
     fieldset {
