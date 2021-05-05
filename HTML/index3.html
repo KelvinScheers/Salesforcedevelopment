@@ -39,24 +39,30 @@
 
 <h4> 4. een formulier kun je ook groeperen, bouw dit voorbeeld na.</h4>
 
-<form name="Persoonsgegevens">
-<button type="button" name="Persoons gegevens" value="Persoons gegevens"><br/><br/>
-<label> Achternaam: </label> <input type="text" id="Achternaam" name="Achternaam" value="Achternaam"><br/><br/>
-<label> Voornaam: </label> <input type="text" id="Voornaam" name="Voornaam" value="Voornaam"><br/><br/>
-<label> Geboortedatum: </label> <input type="datetime" id="Geboortedatum" name="Geboortedatum" value="mm/dd/yyyy"><br/><br/>
-<label> M: </label> <input type="radio" id="Male" name="gender" value="Male"><label> V: </label><input type="radio" id="Female" name="gender" value="Female"><br/><br/>
-<label> Postcode: </label> <input type="text" id="Postcode" name="Postcode" value="Postcode"><br/><br/>
-<label>Adres: </label><input type="text" id="Adres" name="Adres" value="Adres"><br/><br/>
-</button><br/>
-<input type="submit" name="submit" id="submit" value="submit"><input type="reset" id="reset" name="reset" value="reset">
+<form>
+<fieldset>
+    <legend><b>Persoons gegevens</b></legend>
+<label> Achternaam: </label> <input type="text" placeholder="achternaam"><br/><br/>
+<label> Voornaam: </label> <input type="text" placeholder="voornaam"><br/><br/>
+<label> Geboortedatum: </label> <input type="datetime" value="mm/dd/yyyy"><br/><br/>
+<label> M: </label> <input type="radio"><label> V: </label><input type="radio"><br/><br/>
+<label> Postcode: </label> <input type="text" placeholder="postcode"><br/><br/>
+<label>Adres: </label><input type="text" placeholder="adres"><br/><br/>
+</fieldset>
+<input type="submit" value="submit"><input type="reset" value="reset">
+
 </form>
 
+<h4>5. Naast input element heb je ook een select element. Hiermee kan je een dropdown list maken. Maak een drop down list.</h4>
+
+
 <style>
-    body{
+    body {
         background-color: lightblue;
     }
-   
+    fieldset {
+        background-color: lightgray;
+    }
 </style>
-
 </body>
 </html>
