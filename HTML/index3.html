@@ -75,7 +75,7 @@
         <label>Achternaam :</label><input type="text" placeholder="Achternaam"><br/><br/>
         <label>Bent u al lid?</label><br/><br/>
         <label> Ja</label><input type="radio"><label> Nee</label><input type="radio"><br/><br/>
-        <label> E-mail adres: </label><input type="email" value="vul hier uw email adres in"><br/><br/>
+        <label> E-mail adres: </label><input type="email" placeholder="Uw e mail adres"><br/><br/>
         <label> Welke sport wilt u reserveren?</label>
         <select>
             <option> Tafeltennis </option>
@@ -85,12 +85,222 @@
         <label>Datum en tijdstip voor de reservering :</label><input type="datetime-local"><br/><br/>
         <label>Vink aan als u akkoord gaat met onze reserveringsvoorwaarden.</label> <input type="checkbox"><br/><br/>
         <input type="submit" value="Reservering bevestigen"><br/.<br/>
-
-
     </fieldset>
 </form>
+<h4>8. Maak een reserverings formulier om een boek te reserveren.</h4>
+<form>
+    <fieldset>
+        <legend><b>Bibliotheek reserveringsformulier.</b></legend>
+        <br/>
+        <label>Voornaam :</label><input type="text" placeholder="voornaam"><br/><br/>
+        <label>Achternaam :</label><input type="text" placeholder="achternaam"><br/><br/>
+        <label>Telefoonnummer :</label><input type="tel" placeholder="telefoonnummer"><br/><br/>
+        <label>E-mail adres :</label><input type="email" placeholder="e-mail adres"><br/><br/>
+        <label>Naam van het boek :</label><input type="text" placeholder="naam van het boek"><br/><br/>
+        <label>Aantal boeken dat u wilt reserveren :</label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select><br/><br/>
+        <input type="submit" value="Reservering bevestigen"><br/><br/>
+    </fieldset>
+</form>
+<h4>Bouw nu zelf een formulier met wat je hiervoor hebt geleerd.</h4>
+<form>
+    <Fieldset>
+        <Legend><b>TechGrounds Registratieformulier</b></Legend>
+        <br/>
+        <label>Voornaam: </label><input type="text" placeholder="voornaam"><br/><br/>
+        <label>Achternaam: </label><input type="text" placeholder="achternaam"><br/><br/>
+        <label>Email adres: </label><input type="email" placeholder="email"><br/<br/><br/>
+        <label>Telefoonnummer: </label><input type="tel" placeholder="telefoonnummer"><br/><br/>
+        <label>Ontvangt u een uitkering?</label><br/>
+        <br/><label>Ja</label><input type="radio"><label>Nee</label><input type="radio"><br/<br/><br/>
+        <label>Opleidingsniveau</label>
+        <select>
+            <option>VMBO</option>
+            <option>HAVO</option>
+            <option>VWO</option>
+            <option>MBO</option>
+            <option>HBO</option>
+            <option>WO</option>
+        </select><br/><br/>
+    
+        <label>Voor welke try out dag wil je je opgeven?</label><input type="date"><br/><br/>
 
+        <label>Motivatiebrief:</label><br/>
+        <textarea rows="6" cols="60" placeholder="vul hier uw motivatiebrief in."></textarea>
+        <br/><br/>
+        <label>Accepteer de Privacy Policy om door te gaan: </label><input type="checkbox"><br/><br/>
+        <input type="submit" value="Registratie bevestigen"><input type="reset" value="Annuleer">
+    </Fieldset>
+</form>
+<h4>10. Om een tabel te maken heb je de volgende elementen nodig :</h4>
+<ul>
+    <li>Table</li>
+    <li>thead</li>
+    <li>tbody</li>
+    <li>tfoot</li>
+    <li>th</li>
+    <li>tr</li>
+    <li>td</li>
+</ul>
+<p>Geef voor elk element een definitie :</p><br/>
+Table : is de algehele tabel, dit is de opening en de eind tag van de tabel.<br/>
+thead : thead gebruik je om alle headers te groeperen.<br/>
+tbody : tbody gebruik je om alle basis content te groeperen <br/>
+tfoot : tfoot gebruik je voor de content die we als footer content zien<br/>
+th : dit is een header in rij.<br/>
+tr : dit is een rij in een tabel.<br/>
+td : dit is een cel in een tabel.<br/>
 
+<h4>11. Maak een tabel met het table element:</h4>
+<table>
+    <th>Voornaam</th>
+    <th>Achternaam</th>
+    <th>Leeftijd</th>
+    <th>Telefoonnr.</th>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>41</td>
+        <td>+31 12345678</td>
+    </tr>
+    <tr>
+        <td>Steven</td>
+        <td>Smith</td>
+        <td>32</td>
+        <td>+31 12345678</td>
+    </tr>
+    <tr>
+        <td>Alexander</td>
+        <td>Beave</td>
+        <td>16</td>
+        <td>+31 12345678</td>
+    </tr>
+</table>
+
+<h4>12. Maak een agenda tabel met het table element</h4>
+<table>
+    <th>MA</th>
+    <th>DI</th>
+    <th>WO</th>
+    <th>DO</th>
+    <th>VR</th>
+    <tr>
+        <td>Afspraak met tandarts</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Sporten</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Huiswerk maken</td>
+        <td>Werken</td>
+        <td>Werken</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Afspraak met tandarts</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Werken bij vrienden</td>
+    </tr>
+</table>
+
+<h4>Voor het maken van een tabel kan je ook gebruik maken van colspan en rowspan attributen. Zoek uit wat colspan n rowspan attribuut doet en meet het volgende.</h4>
+
+<table>
+    <tr>
+    <th></th>
+    <th>Sport</th>
+    <th>Aantal Recreanten</th>
+    <th>Aantal Competitiespelers</th>
+    <th>Totale deelnemers</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Racketsport</td>
+        <td>Badminton</td>
+        <td>10</td>
+        <td>30</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>Tafeltennis</td>
+        <td>59</td>
+        <td>30</td>
+        <td>89</td>
+            </tr> 
+            <tr>
+                <td>Tennis</td>
+                <td>159</td>                
+                <td>130</td>
+                <td>189</td>
+            </tr>
+            <tr>
+                <td>Tennis 159</td>
+                <td>130</td>
+                <td>189</td>                
+            </tr>
+            <tr>
+                <td rowspan="3">Ball sport</td>
+                <td>Voetbal</td>
+                <td>88</td>
+                <td>40</td>
+                <td>128</td>
+            </tr>
+            <tr>
+                <td>Basketbal</td>
+                <td>60</td>
+                <td>40</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Volleybal</td>
+                <td>35</td>
+                <td>20</td>
+                <td>55</td>
+            </tr>
+</table>
+<h4>14. Maak nu zelf een tabel met de elementen die je geleerd heb.</h4>
+
+<table>
+    <caption>Dit is opdracht 14.</caption>
+    <thead>
+        <th>Maandag</th>
+        <th>Dinsdag</th>
+        <th>Woensdag</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td><b>DIT</b></td>
+            <td><b>WAS</b></td>
+            <td><b>HET</b></td>
+        </tr>
+    </tfoot>
+</table>
 <style>
     body {
         margin-bottom: 500px;
