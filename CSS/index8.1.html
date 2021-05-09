@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voorbeeld selectors</title>
+</head>
+<body>
+    <h1>Dit zijn de voorbeelden.(een type selector)</h1>
+
+    <ul>
+<li>dit is een Adjacent selector</li>
+<li>hier</li>
+<li>duidelijk?</li>
+    </ul><br><br>
+
+    <p class="voorbeeld">Dit is een class selector</p>
+
+    <div>Dit is een voorbeeld van een childselector
+        <span> Deze is geselecteerd
+         <br> <span>dit is normaal</span>
+        </span>
+      </div>
+
+<h2>Dit is een voorbeeld over een general selector</h2>
+
+<p>dit is een tekst</p>
+<code>dit is een normale tekst</code>
+<p> weer een mooie achtergrond</p>
+<p> Dit is ook mooi blauw.</p>
+
+<h4>dit is een een Descendant selector
+<p> elke paragraaf is geel</p>
+<div> leuk he</div>
+<p>test!</p></h4>
+
+
+    <style>
+
+     li:first-of-type + li {
+         background-color: blueviolet;
+     }
+
+        .voorbeeld { color: red;
+
+        }
+
+        h1 {
+            background-color: lightgray;
+        }
+        
+        h2 ~ p {
+
+            background-color: royalblue;
+        }
+
+        span {
+background-color: white;
+}
+
+div > span {
+background-color: rebeccapurple; color: green;
+} 
+
+h4 p {
+    background-color: yellow;
+}
+    </style>
+    
+</body>
+</html>
