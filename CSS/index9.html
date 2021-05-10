@@ -7,6 +7,55 @@
     <title>Opdracht 8</title>
 </head>
 <body>
-    
+    <h1> Leg in je eigen woorden uit wat met cascade en inheritance wordt bedoeld, maak hier ook voorbeelden van.</h1>
+    <p>
+        De betekenis van CSS is Cascading Style Sheet, wat eigenlijk inhoudt dat je je website trapsgewijs opmaakt. <br>
+        Cascade houdt in dat je trapgewijs aan het opmaken ben dus zoals je de website leest zo kan je ook het beste je style opties neer zetten. <br>
+        Dit zodat je jezelf niet overschrijft, stel je gebruikt deze stijl : 
+        <style>
+h1 { 
+    color: red;
+}
+
+h1 { 
+    color: blue;
+}
+
+        </style>
+        <br> dan zie je dat de 2de h1 de eerste overschrijft omdat hij er later bij komt. Je kan dit makkelijker maken voor jezelf om H1 een class te geven. Als je dan meerdere tags gebruikt kan je makkelijker het verschil maken.<br>
+            </p>
+            <p>
+inheritance officieel vertaald betekent dit erfenis, dit gaat om de ouders en de kinderen, de kinderen erfen instellingen van de ouders dit kan je veranderen door een specifiek element te selecteren. <span>zoals in dit voorbeeld.</span> <br>
+Stel we hadden dit voorbeeld geen tags gegeven was alle tekst blauw geweest, en alle tekst in de paragraaf rood. oftewel , specificeer de erfenis om tot het juiste resultaat te komen.<br>
+Er zijn 4 manieren om inheritance te controleren, dat zijn :<br><br>
+<ul>
+    <li>inheritance</li>
+    <li>initial</li>
+    <li>unset</li>
+    <li>revert</li>
+</ul><br><br>
+<ul>
+<li>inheritance zet eigenlijk het kopieren van het bovenliggende element aan</li>
+<li>Initial zet het element terug naar de beginwaarde van die eigenschap</li>
+<li>Unset zet de waarde van het element terug naar zijn natuurlijk waarde dus als er een bovenliggend element is zal hij deze weer gebruiken(inheritance) en anders terug gaan naar de beginwaarde (initial)</li>
+<li>Revert zet de trapsgewijze waarde van de eigenschap terug naar de waarde die de eigenschap zou hebben gehad als er geen wijzigingen waren geweest in het huidige element. </li>
+</ul>
+
+
+            </p>
+
+            <style>
+                body {
+                    font-size: xx-large; color: blue;
+                }
+                p {
+                    font-size: medium; color:crimson; 
+                }
+
+                span {
+                    font-size: x-large; color: green;
+                }
+
+            </style>
 </body>
 </html>
