@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3</title>
+</head>
+<body>
+    <h1> voorbeelden Pseudo elementen</h1>
+1. Dit is het ::after element.<br><br>
+    <p class="boring-text">Here is some plain old boring text.</p>
+<p>Here is some normal text that is neither boring nor exciting.</p>
+<p class="exciting-text">Contributing to MDN is easy and fun.</p>
+
+<style>
+
+.exciting-text::after {
+  content: " <- EXCITING!";
+  color: green;
+}
+
+.boring-text::after {
+  content: " <- BORING";
+  color: red;
+}
+</style>
+
+<br>
+
+2. Dit is een een voorbeeld van een backdrop element.<br><br>
+
+video::backdrop {<br>
+    background-color: red;<br>
+  }<br>
+
+  3. Dit is een voorbeeld van een before element.<br><br>
+
+  <q>Some quotes</q>, he said, <q>are better than none.</q> <br>
+<br>
+
+<style>
+q::before {
+  content: "«";
+  color: blue;
+}
+
+q::after {
+  content: "»";
+  color: red;
+}
+
+  </style>
+4. Dit is een voorbeeld van een cue element.<br><br>
+::cue {<br>
+    color: yellow;<br>
+    font-weight: bold;<br>
+  }<br>
+  <br>
+  5. Dit is een voorbeeld van een first-letter element.<br>
+  p::first-letter { <br>
+    font-size: 130%;<br>
+  }<br>
+  <br>
+  6. Dit is een voorbeeld van een first-line element.<br>
+  <br>
+  p::first-line {<br>
+    color: red;<br>
+  }<br>
+  <br>
+  7. Dit is een voorbeeld van een file-selector-button.<br><br>
+  input[type=file]::file-selector-button {<br>
+    border: 2px solid #6c5ce7;<br>
+    padding: .2em .4em;<br>
+    border-radius: .2em;<br>
+    background-color: #a29bfe;<br>
+    transition: 1s;<br>
+  }<br>
+  <br>
+  input[type=file]::file-selector-button:hover {<br>
+    background-color: #81ecec;<br>
+    border: 2px solid #00cec9;<br>
+  }<br>
+  <br><br>
+  8. Dit is een voorbeeld van een marker element.<br><br>
+  ::marker {<br>
+    color: blue;{<br>
+    font-size: 1.2em;{<br>
+  }<br>{<br>
+
+9. Dit is een voorbeeld van een Part element.<br><br>
+tabbed-custom-element::part(tab) { <br>
+    color: #0c0dcc;<br>
+    border-bottom: transparent solid 2px;<br>
+  }<br>
+  <br>
+
+10. Dit is een voorbeeld van een placeholder element. <br><br>
+::placeholder { <br>
+    color: blue;<br>
+    font-size: 1.5em;<br>
+  }<br>
+  <br>
+  11. Dit is een voorbeeld van een selection element. <br><br>
+  ::selection {<br>
+    background-color: cyan;<br>
+  }<br><br>
+  12. Dit is een voorbeeld van een slotted element.<br><br>
+  ::slotted(span) {<br>
+    font-weight: bold;<br>
+  }<br>
+  <br>
+
+  13.Dit is een voorbeeld van een target-text element. <br><br>
+  ::target-text {<br>
+    background-color: pink;<br>
+  }<br><br>
+</body>
+</html>
