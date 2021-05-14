@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 4</title>
+</head>
+<body>
+
+    <h1>maak dit voorbeeld na.</h1>
+
+    <h2>Button</h2>
+    
+
+    <style>
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    font-size: large;
+    background-color: turquoise;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border: 10px;
+    border-right-style: solid;
+    border-right-color: rgb(255, 81, 0);
+    border-left-style: solid;
+    border-left-color: rgb(255, 81, 0);
+}
+
+
+h2:after {
+    content: "";
+    background: rgb(255, 81, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10%;
+ 
+  }
+
+  h2::before {
+      content: "";
+        background: rgb(255, 81, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    width: 10%;
+  }
+    </style>
+</body>
+</html>

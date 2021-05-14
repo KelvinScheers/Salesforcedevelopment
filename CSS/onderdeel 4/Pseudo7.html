@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht7</title>
+</head>
+<body>
+    <div class="div">
+        <span class="span1"></span>
+        <span class="span2"></span>
+</div>
+<style>
+
+body {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+    
+    .div {
+
+    position: absolute;
+        width: 150px;
+        height: 150px;
+        border: 2px solid tomato;
+        background-color: tomato;
+    }
+
+    .span1::after {
+position: absolute;
+content: "";
+        width: 150px;
+        height: 150px;
+        border: 2px solid tomato;
+        background-color: tomato;
+        transform: rotate(45deg);
+        
+    }
+
+    .span2::before {
+        position: absolute;
+        content: "";
+        width: 150px;
+height: 150px;
+border: 2px solid tomato;
+background-color: tomato;
+transform: rotate(1100deg);
+    }
+</style>
+</body>
+</html>
