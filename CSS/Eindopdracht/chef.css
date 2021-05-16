@@ -1,0 +1,161 @@
+html,
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'lobster', cursive;
+    background-color: rgb(172, 162, 149);
+    }
+
+    header {
+
+        width: 100%;
+        height: 435px;
+        background-image: url(cooking.jpg);
+        background-size: 1650px;
+    }
+
+    footer {
+        width: 100%;
+        height: 250px;
+        background-color: rgb(128, 179, 128);
+        color: rgb(97, 135, 216);
+    }
+
+    nav {
+        background-color: rgb(172, 162, 149);
+        display: flex;
+        flex-direction: row-reverse;
+          
+        
+    } 
+
+    .span { margin: 10px; margin-top: 20px; margin-right: 20px;
+
+    }
+
+    .h1 { 
+        font-size: 50px;
+        margin-left: 1000px;
+        padding-top: 80px;
+        position: relative;
+        color: rgb(97, 135, 216);
+    }
+
+    .p1{
+        color: rgb(97, 135, 216);
+        margin-left: 1000px;
+        
+    }
+
+    .span2 {
+        position: absolute;
+        border: rgb(128, 179, 128) 2px solid;
+        font-weight: bold;
+        color: rgb(97, 135, 216);
+        padding-top: 10px; 
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 950px;
+        padding-bottom: 10px;
+        
+            }
+
+            .span3 {
+                position: absolute;
+                border: rgb(128, 179, 128) 2px solid;
+                font-weight: bold;
+                color: rgb(128, 179, 128);
+                padding-top: 10px;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-left: 1100px;
+                padding-bottom: 10px;
+            }
+
+            .div1 {
+                display: flex;
+                flex-direction: row;
+                border: none 1px;
+
+            }
+
+            .div2 {
+                padding: 50px;
+                                
+            }
+            .div3 {
+                padding: 50px;
+                                
+            }
+            .div4 {
+                padding: 50px;
+                                
+            }
+
+            .h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-weight: bolder;
+            }
+
+            .dish {
+                margin-left: 100px;
+                border-radius: 100%;
+                align-items: center;
+                width: 250px;
+                height: 250px;
+            }
+
+            .spanpasta {
+font-size: x-large;
+font-weight: bold;
+margin-right: 320px;
+            }
+
+            .spanshow {
+                font-weight: bold;
+                text-align: right;
+                margin-left: 320px;
+            }
+
+            .divmastermenu {
+                display: flex;
+               flex-flow: wrap;
+                            }
+
+                            .chef {
+                                float: left;
+                            }
+
+                            .divmaster { 
+                                padding: 30px;
+                            }
+
+                            .pmenu {
+                                display: flex;
+                                flex-wrap: wrap;
+                                font-size: smaller;
+                            }
+
+                            .spanpasta2 {
+                                font-weight: bold;
+                                margin-right: 320px; }
+
+                                .footernav {
+                                    position: absolute;
+                                    padding-left: 1200px;
+                                    
+                                }
+
+                                .contactfooter {
+                                    position: absolute;
+                                   padding-left: 400px;
+                                }
+
+                                .socials {
+                                    width: 25px;
+                                    height: 25px;
+                                    padding: 5px;
+                                    padding-top: 10px;
+                                    fill: rgb(97, 135, 216);
+                                }
