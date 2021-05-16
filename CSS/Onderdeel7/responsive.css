@@ -10,7 +10,7 @@ body {
         }
     body
     {
-    background-image: url("/CSS-test/space.jpg");
+    background-image: url("space.jpg");
     
     height: 100%;
     
@@ -42,7 +42,7 @@ body {
     ;
     width: 80px
     ;
-    background-image: url("/CSS-test/spaceship.png");
+    background-image: url("spaceship.png");
     
     background-size: contain
     ;
@@ -176,4 +176,42 @@ text-align: center;
 .contact-btn a:active {
 position: relative;
 bottom: 2px;
+}
+/* opdracht 1*/
+@media only screen and (max-width: 480px)
+{  
+    .page-title {        width: 270px;
+    }
+ } 
+
+
+/*opdracht 2*/
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait)
+    {
+        .gallery-item .thumbnail { 
+            width: 95%;
+        }
+    }
+/*opdracht 3*/
+    @media (min-resolution: 140dpi)
+    {
+        .logo {
+            background-image: url(spaceship2.png);
+        }
+    }
+/*opdracht 4*/
+@media only screen and (max-device-width:480px) and (max-resolution:150dpi)
+{
+    .page-description {
+        font-size: 20px;
+    }
+}
+/*opdracht 5
+
+zie hier boven (orientation:portrait) */
+
+/* Opdracht 6 */ 
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    
 }
