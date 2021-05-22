@@ -105,3 +105,21 @@ console.log(text);
 // Je zou het eventueel ook zou kunnen schrijven : let text = "text" + "another text"; console.log(text);
 
 
+// BUILT IN METHODS, 1ste is charAt(), deze method geeft het karakter weer wat wordt aangegeven, dus zoals je in het voorbeeld ziet staat hij nu op 0, dat houdt in dat hij de letter H weergeeft maar stel je zet de charAt op (7) dan geeft hij de letter o weer in je console.
+
+const mystr = "hello world";
+result = mystr.charAt(0);
+console.log(result);
+
+//de 2de is concat() deze plakt zoals je in het voorbeeld zit , de Strings aan elkaar vast.
+
+const voorbeeld2 = "herman";
+const voorbeeld22 = "brood";
+console.log(voorbeeld2.concat(voorbeeld22));
+
+//de 3de is slice() deze brengt de geselecteerde elementen in een Array terug in een nieuwe Array Object.
+
+const fruit = ["banaan", "appel", "perzik", "mango", "peer"];
+const lekker = fruit.slice(1, 4);
+console.log (fruit + " " +lekker);
+
