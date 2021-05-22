@@ -50,7 +50,58 @@ let d = 2;
 
 console.log(a + b * c / d);
 
-let number=3;
-number++;
+let numberr=3;
+numberr++;
 
-console.log(number);
+// als ik number naar number-- verander is de uitkomst 2.
+
+console.log(numberr);
+
+let number = 3;
+const sum = ++number +2;
+console.log(sum);
+// het is het getal 5. bij de volgende opdracht zet je de ++ voor number , de uitkomst van deze som is : 6
+
+let numberrr = 3;
+numberrr += 4;
+console.log(numberrr);
+
+// uitkomst van deze som is 7. Een andere manier om de som te schrijven is : let numberrr = 3; let bep = 4; console.log(numberrr + bep);
+// Dit is echter uitgebreider en de eerste optie is makkelijker.
+
+let numberrrr = 3;
+numberrrr += 4;
+numberrrr -= 2;
+numberrrr /= 5;
+numberrrr *= 4;
+console.log(numberrrr);
+
+// de uitkomst is 4.
+
+
+let Voornaam = "Voornaam";
+let Achternaam = "Achternaam";
+
+console.log(Voornaam + Achternaam);
+// de namen zitten aan elkaar vast, verder valt mij niet heel veel op.
+
+let nieuw = "3";
+let nieuw2 = 3;
+
+let combinedText = nieuw + nieuw2; 
+
+console.log(combinedText);
+
+// 33 geprint.. 
+
+// Opdracht 14 : Het is handig om een single quote te gebruiken als je javascript gebruikt in combi met HTML , als je altijd een single quote gebruikt voor JS en een dubbele voor HTML heb je minder kans dat je een fout maakt in je code.
+// voorbeeld : const div = '<div class="panel">voorbeeld</div>'
+
+
+let text = "text";
+text += "another text";
+console.log(text); 
+// printuitslag : textanother text
+// Je zou het eventueel ook zou kunnen schrijven : let text = "text" + "another text"; console.log(text);
+
+
