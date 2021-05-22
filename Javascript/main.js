@@ -117,7 +117,7 @@ const voorbeeld2 = "herman";
 const voorbeeld22 = "brood";
 console.log(voorbeeld2.concat(voorbeeld22));
 
-//de 3de is slice() deze brengt de geselecteerde elementen in een Array terug in een nieuwe Array Object.
+//de 3de is slice() deze brengt de geselecteerde elementen in een Array terug in een nieuwe Array Object. ( in dit geval 1 tot en met 4)
 
 const fruit = ["banaan", "appel", "perzik", "mango", "peer"];
 const lekker = fruit.slice(1, 4);
