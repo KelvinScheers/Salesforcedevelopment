@@ -121,5 +121,19 @@ console.log(voorbeeld2.concat(voorbeeld22));
 
 const fruit = ["banaan", "appel", "perzik", "mango", "peer"];
 const lekker = fruit.slice(1, 4);
-console.log (fruit + " " +lekker);
+console.log (fruit ,lekker);
+
+//4de is een split() deze methode scheidt de orginele string in nieuwe strings die in een nieuwe array komen.
+//zoals je ziet in het voorbeeld is wordt zometeen er nu tussen uit gehaald.
+
+const scheid = "deze zin wordt zometeen in tweeen opgesplitst";
+const poging = scheid.split("wordt zometeen");
+console.log(scheid, poging)
+
+//de laatste methode is substr(), ze "haalt" een gedeelte uit de string weg wat je aangeeft een geeft alleen deze weer , zie voorbeeld.
+
+const laatste = "Het is zondagochtend!";
+const resultaat = laatste.substr(2,8);
+console.log(laatste , resultaat);
+
 
