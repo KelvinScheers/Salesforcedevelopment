@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+    <input type="number" name="number" id="number">
+    <button id="btn" onclick="checkNumber()">Button</button>
+   <p id="demo"></p>
+ 
+ <div>
+    <span id="label"></label></span>
+ </div>
+ 
+
+ 
+ 
+ <script>
+
+function checkNumber () {
+let nummer = Number(number.value);
+    if(nummer == 3){
+        document.getElementById("label").innerHTML = "het ingevoerde getal is gelijk aan 3";}
+    else if(nummer > 4){ 
+        document.getElementById("label").innerHTML = "het ingevoerde getal is groter dan 4";}
+if(nummer >= 11){
+    label.textContent = "het ingevoerde getal is gelijk aan 11 of groter dan 11";
+}
+if(nummer <3){
+    label.textContent = "het ingevoerde getal is kleiner dan 3"; 
+}
+// oke ik weet niet of deze opdracht goed is maar ik heb geen tekst meer iig xD
+if(nummer != false){
+    document.getElementById("label").innerHTML = null;
+}
+}
+//het verschil tussen < en <= is, < is kleiner dan en dit <= betekent kleiner of gelijk aan.
+
+//dit is een voorbeeld van het != comparison, deze geeft aan dat hij not equal is.
+var x = 4;
+document.getElementById("demo").innerHTML = (x != 7);
+
+// De strict equality operator (===) checkt of de waardes equal zijn of niet , je krijgt dus een boolean result ( true or false).
+// het grote verschil met een equality operator is dat de SEO er van uit gaat dat je twee verschillende waardes heb, de EO probeert deze nog te converteren.
+// voorbeeld : ('hallo' === 'hallo') --> true
+//voorbeeld : ("hallo" === hallo) --> false
+ 
+ 
+ </script>
+</body>
+</html>
