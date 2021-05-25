@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+
+ <input type="number" name="number" id="number">
+ <button id="btn" onclick="checkNumber()">Button</button>
+
+
+ <div>
+ <span id="label"></span>
+ </div>
+
+
+
+
+ <script>
+//9
+ //function checkNumber(){
+//const nummer = Number(number.value);
+  //  if(nummer > 5 && nummer < 10){
+    //    document.getElementById("label").innerHTML = "het ingevoerde getal is tussen de 5 en de 10";}
+ //else {
+   // document.getElementById("label").innerHTML = "";}
+//}
+        
+function checkNumber () {
+let nummer = Number(number.value);
+
+if(nummer == 3){
+        document.getElementById("label").innerHTML = "het ingevoerde getal is gelijk aan 3";}
+    else if(nummer > 4){ 
+        document.getElementById("label").innerHTML = "het ingevoerde getal is groter dan 4";}
+if(nummer >= 11){
+    label.textContent = "het ingevoerde getal is gelijk aan 11 of groter dan 11";
+}
+if(nummer <3){
+    label.textContent = "het ingevoerde getal is kleiner dan 3"; 
+}
+if(nummer <= 13 === nummer >= 20){
+    document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan 11 of groter dan 11 en is gelijk aan 20 of kleiner dan 20";
+}  
+else if(nummer == 21 | nummer == 23){
+    document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan 21 of is gelijk aan 23";}  
+    else if(nummer < 30 === nummer > 35 | nummer < 40 === nummer > 45){
+        document.getElementById("label").innerHTML = "het getal is tussen 30 en 35 of het getal is tussen 40 en 45";}
+        
+}
+
+ </script>
+ </body>
+</html>
