@@ -32,23 +32,27 @@ const Opdracht4 = function(opdracht){
 const doel = Opdracht4(5);
 console.log(doel);
 
-
-    function namen() {
-        
-        if( namen === John || namen === Olly || namen === Mo || namen === Hendrik || namen === Tony){
-console.log("Dit is een bekende van ons:" + "" + namen);
+let poging = (namen) => {
+let naam = (poging(Math.round(Math.random() * 5)));  
+    console.log(naam);
+    if( namen === John || namen === Olly || namen === Mo || namen === Hendrik || namen === Tony){
+console.log("Dit is een bekende van ons:" + " " + namen);
         }
         else {
             console.log("Onbekend in ons systeem!");
+           // hier zou ik wel meer uitleg over willen aangezien ik hem niet in mijn scherm krijg zoals het moet.
         }
-    }
-const naam = function(){
-console.log()
-};
-
+       }
  
+const zeven = (Start, range) =>{
+const opdr7 = Math.round((Math.random() * range) + Start);
+return opdr7;
+}
+console.log(zeven( 7, 10));
 
-  // Plaats hieronder alle antwoorden van de opdrachten.
+// de rest parameters syntax staat een functie toe om meerdere nummers of argumenten te accepteren in een functie , zie hier boven (Start , range).
+
+
   </script>
  </body>
  </html>
