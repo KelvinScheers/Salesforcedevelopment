@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+    //opdracht 1, dit is een block scope, wat er gelogd wordt is Volvo.
+
+    //Opdracht 2 , Niks, want volgens de console log zou je Volvo moeten zien maar deze waarde is niet toegekend door een Variable.
+
+    //Opdracht 3, Volvo, nu doet hij het wel want hij roept buiten de {} de functie aan de printcar(). (global)
+
+// Opdracht 4, dit is een functie in een functie, in de console wordt nu Volvo v40 gelogd. 
+// Je hebt de functie PrintCar, de const car variable roept deze aan, de return functie (child functie simple gezegd), zorgt er voor dat de carbrand (volvo) en het type (v40) juist in de console komen te staan.
+
+function printCar() {
+carBrand = "Volvo";
+return function(type) {
+console.log(carBrand + " " + type);
+}
+}
+const car = printCar();
+car("v40");
+    
+
+</script>
+
+
+</body>
+</html>
