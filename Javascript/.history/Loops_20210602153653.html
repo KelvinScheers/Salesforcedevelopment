@@ -14,7 +14,7 @@ initial-scale=1.0">
 <script>
 
 const sports = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal",
-"zwemmen", "korfbal"]
+"zwemmen", "kortbal"]
 
 const Opdracht1 = () =>{
 for(let i = 0; i < sports.length; i++){
@@ -65,9 +65,9 @@ const Opdracht6 = () => {
 Opdracht6();
 
 const Opdracht7 = () => {
-let Op7 = 1;
+let Op7 = 0;
 while ( Op7 <=3) {
-for( let Op77 = 1; Op77 <= 10; Op77++){
+for( let Op77 = 0; Op77 <= 10; Op77++){
     console.log(Op77*Op7);
 }
 Op7++
@@ -75,33 +75,8 @@ Op7++
 }
 Opdracht7();
 
-const Opdracht8 = () =>{
-let start = 0, vervolg = 1;
-for (Op8 = 0; Op8 <=50; Op8++){
-    console.log(start);
-oplossing = start + vervolg;
-start = vervolg;
-vervolg = oplossing;
-}
-}
-Opdracht8();
-
-const Bubblesort = (OP9) => {
-for(i = 0; i < OP9.length; i++) {
-    for(k = 0; k < OP9.length; k++){
-if(OP9[k] > OP9[k+1]){
-    let eindoefening = OP9[k+1];
-    OP9[k+1] = OP9[k];
-    OP9[k] = eindoefening;
-}
-    }
-}
-}
-let nummers = [2,7,5,10,4,9,3,1,8,6];
-Bubblesort(nummers);
-console.log(nummers);
-// ik kan deze laatste oefening goed lezen en nog niet goed implementeren, thanks to jelle staat de opdracht nu , ik begrijp het maar zelf coderen is lastig, ik ga zeker verder oefenen met coderen alleen niet op dit moment maar later zeker.
-
 </script>
+
+
 </body>
 </html>
