@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+
+    <div id="clubs" class="clubs"></div>
+
+
+
+
+
+
+<script>
+const clubs = function (name, type, members){
+    this.name = name;
+    this.type = type;
+    this.members = members;
+}
+
+const club = new clubs ("Feyenoord", "Voetbal", "1 Miljoen");
+clubs();
+console.log(club);
+
+const contact = function (Adres, telefoonnmmr, contactpersoon){
+    this.Adres = Adres;
+    this.telefoonnmmr = telefoonnmmr;
+    this.contactpersoon = contactpersoon;
+}
+
+const contacts = new contact ("De Kuip", "0612345894", "Coentje");
+contact();
+console.log(club, contacts);
+
+let Thebest = [];
+Thebest.push(new clubs('PSG', 'Voetbal', 40000));
+Thebest.push(new clubs('ManU', 'Voetbal', 30000));
+Thebest.push(new clubs('Barca', 'Voetbal', 20000));
+Thebest.push(new clubs('Feyenoord', 'Voetbal', 100000));
+
+for (const clubs of Thebest) {
+    console.log(clubs);
+}
+
+// start assignments
+</script>
+
+
+
+
+
+</body>
+</html>
