@@ -5,4 +5,4 @@ public with sharing class AccountTools {
             WHERE Quantity_Students__c > 1];
             return accounts;
                 }
-            }
+            };
