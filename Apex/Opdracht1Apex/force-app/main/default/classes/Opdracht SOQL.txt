@@ -1,0 +1,4 @@
+//get name of accounts and relates contacts
+//SELECT Name, (SELECT Name FROM Contacts) FROM Account
+
+
